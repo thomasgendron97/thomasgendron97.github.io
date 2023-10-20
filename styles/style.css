@@ -1,0 +1,41 @@
+html{
+    font-size:10px;
+    font-family: "Montserrat", bold;
+    background-color: hsl(213, 26%, 52%);
+} /*setting font property values on html is replicated across the rest of the properties in other selectors*/
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: hsl(200, 55%, 83%);
+    padding: 0 20px 20px 20px; /*no padding on top*/
+    border: 5px solid hsl(225, 90%, 10%); /*top/side/bot border sizes?*/
+  }
+
+img {
+    display: block; /*images are inline elements; "display: block" allows to display it as a block element, which auto inlining can be applied to*/
+    margin: 0 auto;
+  }
+  
+
+h1 {
+    margin:10px;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 3px 3px 6px rgb(156, 155, 155);
+  }
+
+p{
+    font-size: 30px;
+}
+
+li{
+    color: rgb(119, 0, 255);
+    margin:1px;
+  }
+
+li:hover{
+    color: green;
+    margin:10px; /*yes you can make the text move super annoyingly*/
+}
